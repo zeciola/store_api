@@ -4,6 +4,15 @@
 ### dotenv ###
 .env
 
+### Visual Code Studio ###
+.vscode/
+
+### Postman Collection ###
+napp_postman_collection.json
+
+### Sqlite Development Database ###
+napp_solutions.db
+
 ### Flask ###
 instance/*
 !instance/.gitignore
@@ -232,7 +241,6 @@ fabric.properties
 ### PyCharm+all Patch ###
 # Ignores the whole .idea folder and all .iml files
 # See https://github.com/joeblau/gitignore.io/issues/186 and https://github.com/joeblau/gitignore.io/issues/360
-
 .idea/
 
 # Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-249601023

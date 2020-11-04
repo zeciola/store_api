@@ -1,6 +1,12 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,pydev,pycharm+all,jupyternotebooks,flask,zsh,dotenv,virtualenv,visualstudiocode,vscode
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,pydev,pycharm+all,jupyternotebooks,flask,zsh,dotenv,virtualenv,visualstudiocode,vscode
 
+### Postman collection ###
+/napp_postman_collection.json
+
+### Sqlite Development Database ###
+napp_solutions.db
+
 ### dotenv ###
 .env
 
@@ -353,3 +359,4 @@ zsdoc/data
 !/tests/_output/.gitkeep
 
 # End of https://www.toptal.com/developers/gitignore/api/python,pydev,pycharm+all,jupyternotebooks,flask,zsh,dotenv,virtualenv,visualstudiocode,vscode
+/.vscode/
